@@ -13,8 +13,10 @@
                 </a>
             </h1>
         </header>
+        {% for post in posts %}
+            {{post}}
+        {% endfor %}
 
-        
         {% for post in posts %}
             <article>
                 <time>
